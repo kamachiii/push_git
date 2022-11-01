@@ -9,7 +9,7 @@
 </li>
 <li>Pilih folder dimana tempat file dan foldernya akan diupload ke github.</li>
 <li>Klik kanan dan pilih git bash</li>
-<li>ketik di git bash
+<li>ketik di dalam git bash
    
     git init
     git add .
