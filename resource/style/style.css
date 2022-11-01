@@ -1,4 +1,37 @@
-h1{
-    font-family: 'Courier New', Courier, monospace;
+body{
+    background-color: gray;
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.container-item {
+    width: 300px;
+    height: auto;
     background-color: aqua;
+    border-radius: 50px;
+}
+
+.index-h1{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.index-btn-about{
+    padding: 3px 10px 3px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
 }
