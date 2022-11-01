@@ -23,7 +23,7 @@
 </li>
 <li>Jika sudah periksa refresh github untuk melihatnya</li>
 </ol>
-<br><br>
+<br>
 <h5>Note : jika belum login git maka login terlebih dahulu dengan command </h5>
 
     git config --global user.email "example.gmail.com"
