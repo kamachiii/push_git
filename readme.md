@@ -1,10 +1,15 @@
 <h1>Cara Upload file/folder local ke github</h1>
-<hr><br>
+<br>
 <ol>
-<li>Buat repository baru di github</li>
+<li>Buat repository baru di github
+
+![Create new repository](resource/img/create-new.png)
+![Create new repository](resource/img/rename.png)
+![Create new repository](resource/img/copy.png)
+</li>
 <li>Pilih folder dimana tempat file dan foldernya akan diupload ke github.</li>
 <li>Klik kanan dan pilih git bash</li>
-<li>ketik di git bash
+<li>ketik di dalam git bash
    
     git init
     git add .
