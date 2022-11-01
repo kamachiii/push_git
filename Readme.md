@@ -1,12 +1,21 @@
 <h1>Cara Upload file/folder local ke github</h1>
 <hr><br>
-<ul type="1">
-    <li>Pilih folder yang file dan folder nya akan diupload ke cloud github.</li>
-    <li>Klik kanan dan pilih git bash</li>
-    <li>ketik ```git init```
-    ```git add.```
-    ```git commit -m "ini message"```
-    ```git remote add origin https://link-github```
-    ```git push -u origin main```</li>
-    <li>Terakhir pergi ke github dan coba refresh maka file tersebut telah terupload.</li>
-</ul>
+<ol>
+<li>Buat repository baru di github</li>
+<li>Pilih folder dimana tempat file dan foldernya akan diupload ke github.</li>
+<li>Klik kanan dan pilih git bash</li>
+<li>ketik di git bash
+   
+    git init
+    git add .
+    git commit -m "message"
+    git remote add origin https://github.com
+    git push -u origin master
+</li>
+<li>Silahkan periksa di github untuk memastikan berhasil atau tidaknya.</li>
+</ol>
+<br><br>
+<h5>Note : jika belum login git maka login terlebih dahulu dengan command </h5>
+
+    git config --global user.email "example.gmail.com"
+    git config --global user.name "example username"
